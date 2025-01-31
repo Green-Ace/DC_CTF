@@ -10,3 +10,15 @@
 
 
 ![image](https://github.com/user-attachments/assets/0c1967fc-082c-43e3-88b6-27034452d221)
+
+
+
+
+Задание XSS: уровень 0
+
+
+![image](https://github.com/user-attachments/assets/b36c8816-b801-4863-82db-aa8e5940411e)
+
+![image](https://github.com/user-attachments/assets/8197605c-2165-4646-a0d8-27c1865e0d14)
+
+![image](https://github.com/user-attachments/assets/1fc4cd06-f330-4253-93b5-fe090f068a78)
