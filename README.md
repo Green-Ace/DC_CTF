@@ -36,3 +36,22 @@
 
 ![image](https://github.com/user-attachments/assets/c653cfc3-2808-4542-9d8b-72afbdaf41c0)
 
+
+
+
+
+
+
+
+
+
+Command Execution: уровень 1
+
+![image](https://github.com/user-attachments/assets/b7ebee0b-3b24-41de-aa81-83540012771a)
+
+![image](https://github.com/user-attachments/assets/cfa68234-318c-41f3-8fb6-f60d2c0faaa2)
+
+![image](https://github.com/user-attachments/assets/4f956069-8a47-4900-8962-71ba8103f02d)
+
+
+
