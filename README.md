@@ -81,3 +81,13 @@ Command Execution: уровень 3
 
 ![image](https://github.com/user-attachments/assets/6e7ff00c-b425-47ec-b141-198de6fc58cb)
 
+
+
+
+
+Command Execution: уровень 4
+
+
+![image](https://github.com/user-attachments/assets/a797218f-b1dd-4fc3-9d02-2c743f720e34)
+
+![image](https://github.com/user-attachments/assets/493e9da4-b2b0-49f7-a5dd-a0cc15250ba7)
