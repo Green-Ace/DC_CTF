@@ -72,7 +72,8 @@ Command Execution: уровень 2
 
 ![image](https://github.com/user-attachments/assets/75ee9eb2-423a-4a37-ab62-975791109093)
 
-![image](https://github.com/user-attachments/assets/2b37e3ef-5671-4cca-89aa-0ced55aca7b1)
+![image](https://github.com/user-attachments/assets/7efa1922-9ed9-419b-a7de-fce6a679acb8)
+
 
 
 
