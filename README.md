@@ -25,6 +25,10 @@
 
 
 
+
+
+
+
 Задание FU: уровень 0
 
 
@@ -62,4 +66,13 @@ Command Execution: уровень 1
 
 
 ![image](https://github.com/user-attachments/assets/ea996ee5-fe19-47d3-82ae-be4f20bbfb8d)
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/6e7ff00c-b425-47ec-b141-198de6fc58cb)
 
