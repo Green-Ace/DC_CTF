@@ -58,6 +58,8 @@ Command Execution: уровень 1
 
 
 
+![image](https://github.com/user-attachments/assets/4f2182ee-3b58-4be8-8407-d5c353a10680)
+
 
 ![image](https://github.com/user-attachments/assets/ea996ee5-fe19-47d3-82ae-be4f20bbfb8d)
 
