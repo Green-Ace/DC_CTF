@@ -27,6 +27,10 @@
 
 Задание FU: уровень 0
 
+
+![Uploading image.png…]()
+
+
 ![image](https://github.com/user-attachments/assets/874509f7-f323-4f30-86e3-c6f90584ec54)
 
 ![image](https://github.com/user-attachments/assets/c653cfc3-2808-4542-9d8b-72afbdaf41c0)
