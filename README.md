@@ -22,3 +22,12 @@
 ![image](https://github.com/user-attachments/assets/8197605c-2165-4646-a0d8-27c1865e0d14)
 
 
+
+
+
+Задание FU: уровень 0
+
+![image](https://github.com/user-attachments/assets/874509f7-f323-4f30-86e3-c6f90584ec54)
+
+![image](https://github.com/user-attachments/assets/c653cfc3-2808-4542-9d8b-72afbdaf41c0)
+
