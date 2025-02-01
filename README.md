@@ -55,3 +55,9 @@ Command Execution: уровень 1
 
 
 
+
+
+
+
+![image](https://github.com/user-attachments/assets/ea996ee5-fe19-47d3-82ae-be4f20bbfb8d)
+
