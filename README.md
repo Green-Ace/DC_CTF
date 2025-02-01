@@ -59,7 +59,7 @@ Command Execution: уровень 1
 
 
 
-
+Command Execution: уровень 2
 
 
 ![image](https://github.com/user-attachments/assets/4f2182ee-3b58-4be8-8407-d5c353a10680)
@@ -70,9 +70,13 @@ Command Execution: уровень 1
 
 
 
+![image](https://github.com/user-attachments/assets/75ee9eb2-423a-4a37-ab62-975791109093)
+
+![image](https://github.com/user-attachments/assets/2b37e3ef-5671-4cca-89aa-0ced55aca7b1)
 
 
 
+Command Execution: уровень 3
 
 ![image](https://github.com/user-attachments/assets/6e7ff00c-b425-47ec-b141-198de6fc58cb)
 
