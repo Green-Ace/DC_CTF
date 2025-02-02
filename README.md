@@ -95,3 +95,32 @@ Command Execution: уровень 4
 ![image](https://github.com/user-attachments/assets/a797218f-b1dd-4fc3-9d02-2c743f720e34)
 
 ![image](https://github.com/user-attachments/assets/493e9da4-b2b0-49f7-a5dd-a0cc15250ba7)
+
+
+
+
+
+ XSS: уровень 1
+
+ ![image](https://github.com/user-attachments/assets/a200b3e2-622a-4419-8f5b-cb6420feaa74)
+
+
+
+ XSS: уровень 2
+
+![image](https://github.com/user-attachments/assets/8d07cb68-9225-41d2-88f3-4d6e0c68bc02)
+
+
+
+  XSS: уровень 3
+
+
+
+ ![image](https://github.com/user-attachments/assets/b4bddabe-5e73-41a6-920c-91eb1c49f105)
+
+
+{"alg":"HS256","typ":"JWT"}
+
+
+
+
