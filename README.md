@@ -195,6 +195,7 @@ File Inclusion: уровень 2
 ![image](https://github.com/user-attachments/assets/141c0458-fa18-46cd-b1ea-89da7be6ae13)
 
 
+![image](https://github.com/user-attachments/assets/cbe58cb1-8a85-401d-bacb-079394f3a488)
 
 
 
@@ -210,6 +211,7 @@ File Inclusion: уровень 3
 ![image](https://github.com/user-attachments/assets/9ae24d63-7ca9-4ee4-81cb-f729427a1f77)
 
 
+![image](https://github.com/user-attachments/assets/2e78e121-203d-410b-b037-7f1ca77ef689)
 
 
 
