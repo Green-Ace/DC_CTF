@@ -200,6 +200,8 @@ File Inclusion: уровень 1
 
 ![image](https://github.com/user-attachments/assets/a06f1a4d-ad4a-46af-9102-9b81671add90)
 
+![image](https://github.com/user-attachments/assets/ba4d1474-f18e-4f04-bd5e-f8b59ea56199)
+
 
 File Inclusion: уровень 2
 
