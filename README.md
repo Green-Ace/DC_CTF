@@ -124,6 +124,11 @@ Command Execution: уровень 4
   XSS: уровень 3
 
 
+![image](https://github.com/user-attachments/assets/9c05f94f-ec0c-4ca0-8581-892fb8a2a8c6)
+
+
+
+
 
  ![image](https://github.com/user-attachments/assets/b4bddabe-5e73-41a6-920c-91eb1c49f105)
 
@@ -175,7 +180,11 @@ python3 jwt_tool.py -t http://51.250.91.149/XSS/XSS_level3.php -rc "jwt=eyJhbGci
 
 
   XSS: уровень 4
+
   
+  ![image](https://github.com/user-attachments/assets/53ae8c91-d57b-469e-a8db-58823efef263)
+  
+
 ![image](https://github.com/user-attachments/assets/b975d289-b902-4242-a5c9-838c07e6d4a2)
 
 
@@ -217,3 +226,14 @@ File Inclusion: уровень 3
 
 
 ![image](https://github.com/user-attachments/assets/f87d0dff-8c4c-4cd3-9178-709a0c905e51)
+
+
+
+
+File Inclusion: уровень 4
+
+![image](https://github.com/user-attachments/assets/03f4b645-8fdd-4de7-9d9d-d8334b88638d)
+
+![image](https://github.com/user-attachments/assets/261345c3-4199-4cd4-9614-23e40fc47571)
+
+![image](https://github.com/user-attachments/assets/84f369cd-0716-460e-8df9-5da08c378538)
