@@ -193,3 +193,7 @@ File Inclusion: уровень 3
 
 ![image](https://github.com/user-attachments/assets/93c358d5-c2eb-4e04-9464-872663714c45)
 
+![image](https://github.com/user-attachments/assets/15697450-b352-452c-bab2-ef50d7decd20)
+
+
+![image](https://github.com/user-attachments/assets/9ae24d63-7ca9-4ee4-81cb-f729427a1f77)
