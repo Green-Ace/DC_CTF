@@ -186,6 +186,11 @@ python3 jwt_tool.py -t http://51.250.91.149/XSS/XSS_level3.php -rc "jwt=eyJhbGci
 
 
 
+File Inclusion: уровень 2
+
+
+![image](https://github.com/user-attachments/assets/141c0458-fa18-46cd-b1ea-89da7be6ae13)
+
 
 
 
@@ -197,3 +202,10 @@ File Inclusion: уровень 3
 
 
 ![image](https://github.com/user-attachments/assets/9ae24d63-7ca9-4ee4-81cb-f729427a1f77)
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/f87d0dff-8c4c-4cd3-9178-709a0c905e51)
