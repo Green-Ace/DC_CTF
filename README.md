@@ -258,6 +258,13 @@ SQLI: уровень 1
 ![image](https://github.com/user-attachments/assets/a15f2e67-5735-4dda-8718-ece037314b2e)
 
 
+SQLI: уровень 2
+
+
+![image](https://github.com/user-attachments/assets/f0e0ccce-1b74-4cab-a7b9-fb7f885fd2c3)
+
+
+![image](https://github.com/user-attachments/assets/4c091ee1-489d-443b-9e66-415383d06c8f)
 
 
 
