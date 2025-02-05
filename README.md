@@ -240,8 +240,25 @@ File Inclusion: уровень 3
 
 File Inclusion: уровень 4
 
+
+
+
 ![image](https://github.com/user-attachments/assets/03f4b645-8fdd-4de7-9d9d-d8334b88638d)
 
 ![image](https://github.com/user-attachments/assets/261345c3-4199-4cd4-9614-23e40fc47571)
 
 ![image](https://github.com/user-attachments/assets/84f369cd-0716-460e-8df9-5da08c378538)
+
+
+
+
+SQLI: уровень 1
+
+
+![image](https://github.com/user-attachments/assets/a15f2e67-5735-4dda-8718-ece037314b2e)
+
+
+
+
+
+
