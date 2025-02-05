@@ -342,6 +342,8 @@ sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83
 ![image](https://github.com/user-attachments/assets/38c3b949-3833-4d99-a849-87535d7d3699)
 
 
+STUD{SQl_R00L3S!}  ???? флаг не принимается :(
+
 
 
 
